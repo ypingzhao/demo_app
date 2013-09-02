@@ -1,14 +1,16 @@
 source 'https://rubygems.org'
 
-source 'https://rubygems.org'
 ruby '1.9.3'
 
 gem 'rails', '4.0.0'
+gem 'bootstrap-sass', '2.3.0'
 
 group :development do
   gem 'sqlite3', '1.3.7'
 end
 
+
+gem 'bcrypt-ruby', '3.0.1'
 gem 'sass-rails', '4.0.0'
 gem 'uglifier', '2.1.1'
 gem 'coffee-rails', '4.0.0'
